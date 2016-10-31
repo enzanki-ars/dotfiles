@@ -1,6 +1,6 @@
 source ~/antigen/antigen.zsh
 
-alias git=hub
+export PATH=$PATH:/opt/android-sdk-linux/tools
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
